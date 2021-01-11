@@ -8,3 +8,7 @@ Kelas : Struktur Data 3B
 Nama : Muhammad Risky Pratama Hermawan
 NIM  : 201810370311141
 Kelas : Struktur Data 3B
+
+Nama : Irwan Pradana Moktar Kadha
+NIM : 201810370311170
+Kelas : Struktur Data 3B
