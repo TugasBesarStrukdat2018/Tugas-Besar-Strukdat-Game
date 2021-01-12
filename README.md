@@ -12,3 +12,7 @@ Kelas : Struktur Data 3B
 Nama : Irwan Pradana Moktar Kadha
 NIM  : 201810370311170
 Kelas : Struktur Data 3B
+
+Nama : Aisah Alfiyatus R
+NIM  : 201810370311147
+Kelas : Struktur Data B
