@@ -7,4 +7,8 @@ public class Cerita {
     this.TeksCerita = teks;
   }
   
+  public void printCerita(){
+    Syste.out.println(this.TeksCerita);
+  }
+  
 }
