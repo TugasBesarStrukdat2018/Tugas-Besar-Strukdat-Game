@@ -111,5 +111,49 @@ public class Permainan {
     Choicesch4ChoiceA = new Choices("fourA", "A", "terakhir", "five");
     Choicesch4ChoiceB = new Choices("fourB", "B", "terakhir", "five");
     Choicesch4ChoiceC = new Choices("fourC", "C", "terakhir", "five");
+    Collections.addAll(storyRepo, one, twoA, twoB, twoC, threeA, threeB, threeC, fourA, fourB, fourC, five );
+        Collections.addAll(choiceRepo, ch1ChoiceA, ch1ChoiceB, ch1ChoiceC, ch2ChoiceA, ch2ChoiceB, ch2ChoiceC, ch3ChoiceA,  ch3ChoiceB, ch3ChoiceC, ch4ChoiceA,ch4ChoiceB,ch4ChoiceC);
+        
+        
+        
+        
+      
+    
+    while (true) {
+      ArrayList<Choices> specificChoices = new ArrayList<>();
+
+       for (Story story : storyRepo) {
+            if (story.storyName.equals(storySection)) {
+                story.printStory();
+                }
+            }
+
+        for (Choices choice : choiceRepo) {
+            if (choice.storyBlock.equals(storySection)) {
+               choice.printChoices();
+               specificChoices.add(choice);
+               }
+            }
+
+            System.out.println("Choose a response: ");
+            option = reader.nextLine();
+            while (!option.equals("A") &&
+                    !option.equals("B") &&
+                    !option.equals("C") &&
+                    !option.equals("Exit")) {
+                System.out.println("Invalid input. Enter A, B, C or Exit");
+                option = reader.nextLine();
+            }
+ 
+            if (option.equals("Exit")) {
+                break;
+            }
+
+            for (Choices specificChoice : specificChoices) {
+                if (specificChoice.option.equals(option)) {
+                    storySection = specificChoice.result;
+                }
+            }
+        }
   }
 }
