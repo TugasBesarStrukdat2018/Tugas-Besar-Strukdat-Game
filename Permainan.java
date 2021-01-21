@@ -43,5 +43,41 @@ public class Permainan {
                 "Setelah bertemu teman yang beda fakultas bernad berjalan menuju gedung kuliah bersama 3,\n"+
                 " tetapi ada teman teman yang sekelas dengannya di ICT kemudian temanya menyapa dia \n"+
                 "dan disuruh kesana.");
+    
+        Choices ch1ChoiceA = new Choices ("one", "A",
+               "Apakah Bernad Hidayat menyapa kemudian mengajak mengobrol sahabatnya", "two A");
+        Choices ch1ChoiceB = new Choices ("one", "B",
+               "Menyapa dan langsung menuju gedung kuliah bersama 3", "twoB");
+        Choices ch1ChoiceC = new Choices ("one", "C",
+               "Lari, Tidak menghiraukan Fulan", "twoC");
+    
+        StorythreeA = new Story ("threeA","Menolak dan menjawab singkat\n"+
+                "Lisa : Hey nad, mau kemana? sini lah dulu.\n"+
+                "Bernad : Eh Lisa, maaf mau ada agenda ketemu dosen wali\n"+
+                "Lisa : Oh ya sudahh.\n"+
+                "Bernad : Maaf ya hehehe\n"+
+                "Kemudian Bernad menuju ke GKB2 untuk naik lift menuju ke lantai 6 di GKB3, lift disini terlalu ramai antrinya pasti lama");
+    
+        StorythreeB = new Story ("threeB","Menghampiri temanya dahulu"+
+                "Lisa : Hey nad, mau kemana? sini lah dulu.\n"+
+                "Bernad : Eh Lisa, Ngapain lis disini?\n"+
+                "Lisa : Ngerjain tugas nih kalkulus.\n"+
+                "Bernad : Lohh, kok kalkulus?\n"+
+                "Lisa : Iya aku ngulang semester kemaren huft.\n"+
+                "Bernad : Emang siapa dosen nya?"+
+                "Lisa : Biasa lahh bapak ituu, siapa lagi emang.\n"+
+                "Bernad: Waduhhhh, geleng geleng nilaiku aja pas.\n"+
+                "Lisa : Yha mau gimana lagi, jalani aja.\n"+
+                "Bernad : Hehehe, semangat yaaa. Aku mau ke kantor jurusan dulu, ada urusan.\n"+
+                "Lisa : Oke deh hati hati.\n"+
+                "Kemudian Bernad menuju ke GKB2 untuk naik lift menuju ke lantai 6 di GKB3, lift disini terlalu ramai antrinya pasti lama");
+        
+        StorythreeC = new Story ("threeC","Langsung bergegas menuju gedung kuliah bersama 3\n"+
+                "Kemudian Bernad menuju ke GKB2 untuk naik lift menuju ke lantai 6 di GKB3, lift disini terlalu ramai antrinya pasti lama");
+ 
+        Choices ch2ChoiceA = new Choices ("twoA", "A", "Continue", "threeA");
+        Choices ch2ChoiceB = new Choices ("twoB", "B", "Continue", "threeB");
+        Choices ch2ChoiceC = new Choices ("twoC", "C", "Continue", "threeC");
+        
   }
 }
