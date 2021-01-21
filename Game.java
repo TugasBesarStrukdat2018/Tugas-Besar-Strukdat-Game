@@ -78,6 +78,38 @@ public class Permainan {
         Choices ch2ChoiceA = new Choices ("twoA", "A", "Continue", "threeA");
         Choices ch2ChoiceB = new Choices ("twoB", "B", "Continue", "threeB");
         Choices ch2ChoiceC = new Choices ("twoC", "C", "Continue", "threeC");
-        
+   
+     StoryfourA = new Story ("fourA","Menunggu lift saja\n"+
+                           "Bernad: Yahhh, ramai sekali liftnya, apa daya lagi mager tunggu aja dahh.\n"+
+                           "Setelah sampai di kanotr Jurusan Informatika, Bernad menuju ketempat informasi\n"+
+                           "menanyakan apakah ada Bu Lia. Bu Lia adalah dosen wali Bernad. Setelah bertanya dijawab\n"+
+                           "oleh salah satu petugas bahwa Bu Lia ada di mejanya, saya langsung menuju ke ruangan dosen");
+    
+    StoryfourB = new Story ("fourB","Bernad : Waduuhh ramai sekali liftnya, naik tangga ajalah biar cepat sekalian olahraga\n"+
+                           "Setelah sampai di kanotr Jurusan Informatika, Bernad menuju ketempat informasi\n"+
+                           "menanyakan apakah ada Bu Lia. Bu Lia adalah dosen wali Bernad. Setelah bertanya dijawab\n"+
+                           "oleh salah satu petugas bahwa Bu Lia ada di mejanya, saya langsung menuju ke ruangan dosen");
+    
+    StoryfourC = new Story ("fourC","Wah ramai liftnya, lewat kantin teknik aja sekalian beli cemilan dulu"+
+                           "Setelah sampai di kanotr Jurusan Informatika, Bernad menuju ketempat informasi\n"+
+                           "menanyakan apakah ada Bu Lia. Bu Lia adalah dosen wali Bernad. Setelah bertanya dijawab\n"+
+                           "oleh salah satu petugas bahwa bu liad ada di mejanya, saya langsung menuju ke ruangan dosen\n");
+    
+    Choicesch3ChoiceA = new Choices("threeA", "A", "Continue1", "fourA");
+    Choicesch3ChoiceB = new Choices("threeB", "B", "Continue1", "fourB");
+    Choicesch3ChoiceC = new Choices("threeC", "C", "Continue1", "fourC");
+    
+    Storyfive = new Story("five", "\nBernad : Assalamualaikum Permisi Bu Lia."+
+                         "Bu Lia : Waalaikumsalam eh bernad ada apa?\n"+
+                         "Bernad : Mau bertanya tentang tugas akhir bu.\n"+
+                         "Bu Lia : Oh ya boleh, Mau tanya tentang apa?\n"+
+                         "Bernad : Untuk tugas akhir nya biasanya bagaimana ya bu?\n"+
+                         "Kemudian Bu Lia menjelaskan tentang tugas akhir dan bagaimana mengerjakannya\n"+
+                         "setelah selesai dan paham apa saja yng dijelaskan oleh Bu Lia, Bernad berpamitan dan\n"+
+                         "mengucapkan terimakasih\n");
+    
+    Choicesch4ChoiceA = new Choices("fourA", "A", "terakhir", "five");
+    Choicesch4ChoiceB = new Choices("fourB", "B", "terakhir", "five");
+    Choicesch4ChoiceC = new Choices("fourC", "C", "terakhir", "five");
   }
 }
